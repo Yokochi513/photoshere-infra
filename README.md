@@ -25,3 +25,16 @@ photoshere-infra/
 ├─ backend/    # backend リポジトリ（Git submodule）
 ├─ frontend/   # frontend リポジトリ（Git submodule）
 └─ mongo/
+```
+
+## 実行方法
+以下コマンドをターミナルで実行すると立ち上げることが可能
+※要Docker Desktop ダウンロード
+```powershell
+docker compose up --build
+```
+
+以下コマンドで停止
+```powershell
+docker compose down
+```
