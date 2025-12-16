@@ -28,6 +28,7 @@ photoshere-infra/
 ```
 
 ## 実行方法
+
 以下コマンドをターミナルで実行すると立ち上げることが可能
 ※要Docker Desktop ダウンロード
 ```powershell
@@ -37,4 +38,9 @@ docker compose up --build
 以下コマンドで停止
 ```powershell
 docker compose down
+```
+
+infra専用コマンド
+```Powershell
+git submodule update --init --recursive
 ```
