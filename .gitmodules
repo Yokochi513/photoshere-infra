@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Yokochi513/backend_flutter_photoshere.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Yokochi513/flutter_application_photoshere.git
